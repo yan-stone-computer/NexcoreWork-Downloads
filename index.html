@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0c0d10">
+  <title>下载 NexcoreWork 手机端</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0c0d10;--panel:#15181e;--line:#2b323d;--text:#f3f6f8;--muted:#a8b2c0;--accent:#31b9df}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100dvh;display:grid;place-items:center;padding:24px 18px;background:radial-gradient(circle at 85% 0%,#173d4b 0,transparent 36%),var(--bg);color:var(--text);font-family:"HarmonyOS Sans SC","Microsoft YaHei",system-ui,sans-serif}
+    main{width:min(560px,100%);padding:28px 22px;background:var(--panel);border:1px solid var(--line);border-radius:24px;box-shadow:0 20px 60px #0007}
+    .brand{display:flex;align-items:center;gap:10px;color:var(--accent);font:650 12px/1 "JetBrains Mono",Consolas,monospace;letter-spacing:2px}
+    .brand img{width:42px;height:42px}
+    h1{font-size:clamp(30px,9vw,46px);line-height:1.08;letter-spacing:-1.5px;margin:26px 0 12px}
+    .lead{margin:0;color:var(--muted);font-size:14px;line-height:1.8}
+    .meta{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 24px}
+    .meta span{padding:5px 9px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:11px}
+    .download{display:flex;align-items:center;justify-content:center;min-height:54px;border-radius:14px;background:var(--accent);color:#031116;text-decoration:none;font-size:16px;font-weight:700}
+    .secondary{display:flex;justify-content:center;margin-top:10px;color:var(--muted);font-size:12px;text-decoration:none}
+    ol{margin:26px 0 0;padding-left:22px;color:var(--muted);font-size:13px;line-height:1.9}
+    code{display:block;margin-top:18px;padding:12px;border-radius:10px;background:#0c1117;color:#9fb2c6;font:10px/1.6 "JetBrains Mono",Consolas,monospace;overflow-wrap:anywhere}
+    .note{margin-top:18px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:11px;line-height:1.8}
+    footer{margin-top:20px;text-align:center;color:#758191;font-size:10px}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><img src="./assets/icon.png" alt="">NEXCOREWORK</div>
+    <h1>下载手机端<br>连接你的电脑</h1>
+    <p class="lead">安装后用手机软件扫描电脑生成的连接码。文件、模型和任务仍在电脑上执行。</p>
+    <div class="meta"><span>Android 7.0+</span><span>版本 0.1.0-alpha.1</span><span>约 4.8 MB</span></div>
+    <a class="download" href="https://github.com/yan-stone-computer/NexcoreWork-Downloads/releases/latest/download/NexcoreWork-Mobile.apk">下载 Android 安装包</a>
+    <a class="secondary" href="https://github.com/yan-stone-computer/NexcoreWork-Downloads/releases">查看历史版本</a>
+    <ol>
+      <li>下载并安装 APK，允许浏览器安装未知来源应用。</li>
+      <li>打开 NexcoreWork 手机端，允许相机权限。</li>
+      <li>扫描电脑“手机控制”中生成的连接二维码。</li>
+    </ol>
+    <code>SHA256 B2A62B179094F07CED13404640626468F05A66FDD85DCFE930EC3AB8B9CD4250</code>
+    <div class="note">源码仓库保持私有。这个公开仓库只用于发布签名安装包和更新说明。请只从本页面下载。</div>
+    <footer>NexcoreWork · 本地优先的智能体工作台</footer>
+  </main>
+</body>
+</html>
